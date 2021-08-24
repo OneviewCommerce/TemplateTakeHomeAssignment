@@ -1,0 +1,23 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 12px solid #a1e967;
+  border-top: 12px solid #63db34;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: rotate 2s linear infinite;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+      -ms-transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+    }
+  }
+}
